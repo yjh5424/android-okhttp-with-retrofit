@@ -18,7 +18,8 @@ dependencies {
   
 1.	Print 등록    
 -	HTTP Method : POST  
--	URI : /print  
+- BASE_URL : http://13.124.15.202:8080
+-	URI : /print  
 -	Requestbody : name, category, place, location, date, stars, recommend  
 -	Ex)  
   
