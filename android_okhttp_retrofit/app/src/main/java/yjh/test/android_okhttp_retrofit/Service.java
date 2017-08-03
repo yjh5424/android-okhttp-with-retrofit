@@ -23,9 +23,12 @@ public interface Service {
 
     //you must use com.google.gson to use json
     @GET("print")
-    Call<JsonArray> loadFood();
+    Call<JsonArray> loadAllFood();
 
-    @GET("print")
+    //URL: /print/:category
+    //ex) /print/1
+    @GET("print/")
     Call<JsonArray> loadFoodCategory(@Query("") int num);
+
 
 }
