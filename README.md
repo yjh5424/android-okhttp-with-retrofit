@@ -1,13 +1,16 @@
 # Using android-okhttp-retrofit with HTTP
-##   
-
+##  
+  
+<div>  
 dependencies {  
     compile fileTree(include: ['*.jar'], dir: 'libs')  
     testCompile 'junit:junit:4.12'  
     compile 'com.android.support:appcompat-v7:23.4.0'  
-    *compile 'com.squareup.retrofit2:retrofit:2.3.0'*  
-    *compile 'com.squareup.retrofit2:converter-gson:2.3.0'*  
+    **compile 'com.squareup.retrofit2:retrofit:2.3.0'**  
+    **compile 'com.squareup.retrofit2:converter-gson:2.3.0'**  
 }  
+</div>
+  
 
 
 출처: http://swalloow.tistory.com/72 [MyCloud]
