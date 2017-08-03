@@ -5,4 +5,5 @@ package yjh.test.android_okhttp_retrofit;
  */
 
 public interface Service {
+
 }
