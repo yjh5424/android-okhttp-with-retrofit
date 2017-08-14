@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
         categoryFoodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                loadFoodCategory(service, 1);
+                //put category Num
+                loadFoodCategory(service, 2);
             }
         });
 

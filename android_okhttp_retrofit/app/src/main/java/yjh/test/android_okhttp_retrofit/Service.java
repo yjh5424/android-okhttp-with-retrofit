@@ -4,6 +4,8 @@ import com.google.gson.JsonArray;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Part;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
@@ -27,8 +29,8 @@ public interface Service {
 
     //URL: /print/:category
     //ex) /print/1
-    @GET("print/")
-    Call<JsonArray> loadFoodCategory(@Query("") int num);
+    @GET("print/{num}")
+    Call<JsonArray> loadFoodCategory(@Path("num") int num);
 
 
 }
